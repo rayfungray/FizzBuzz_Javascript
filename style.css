@@ -6,7 +6,7 @@
   flex-direction:;
 }
 
-.element {
+.circle {
   width: 100px;
   height : 100px;
   background-color: #ffff00;
@@ -18,7 +18,7 @@
   transition: 5ms;
 }
 
-.element:hover {
+.circle:hover {
   transition: 5ms;
   background-color: green;
 }
