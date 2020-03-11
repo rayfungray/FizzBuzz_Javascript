@@ -3,7 +3,7 @@
   flex-wrap: wrap;  
   justify-content: center;
   align-items: space-between;
-  flex-direction:;
+  
 }
 
 .circle {
@@ -16,9 +16,23 @@
   justify-content: center;
   align-items: center;
   transition: 5ms;
+  color:orangered;
+  font-weight: bold;
 }
 
 .circle:hover {
   transition: 5ms;
   background-color: green;
+}
+
+.Fizz:hover{
+  background-color: tomato;
+}
+
+.Buzz:hover{
+  background-color: #732;
+}
+
+.FizzBuzz:hover{
+  background-color: pink;
 }

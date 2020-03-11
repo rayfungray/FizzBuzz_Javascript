@@ -1,5 +1,4 @@
 document.title = "FizzBuzz";
-// var fizz = document.getElementsByTagName('body');
 var body = document.body;
 
 var addContainer = document.createElement('div');
@@ -28,7 +27,7 @@ else
 {
   addDiv.innerHTML = i;
 }
-
+// addDiv.style.backgroundColor="#19"+i+i;
 console.log(addDiv);
 addContainer.appendChild(addDiv);
 }
